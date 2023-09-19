@@ -1,0 +1,139 @@
+body {
+    background: #000;
+}
+container {
+    width: 700px;
+}
+main {
+    background: #eeecec;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url("../images/header.jpeg");
+    background-repeat: none;
+    background-size: cover;
+    padding: 140px;
+    margin: auto 0;
+    text-align: center;
+}
+.btn-dark {
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 10px;
+    border: black;
+    padding: 10px;
+}
+main.dark-mode {
+    background-color: #0a0a0a;
+    color: #e7e7e7;
+}
+header h2 {
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+}
+header h1 {
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+}
+h3 {
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url("../images/footer1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
+}
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 70px;
+}
+.img-responsive {
+    width: 100%;
+    display: block;
+}
+.grid {
+    display: grid;
+    grid-gap: 40px;
+}
+.grid-2-columns {
+    grid-template-columns: 1fr 2fr;
+}
+.grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+p {
+    line-height: 2;
+    text-align: justify;
+    font-size: 16px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: courier;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3f3ceb;
+}
+li:hover {
+    color: #807e7e;
+}
+.btn-primary {
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #252394;
+    border-color: #252394;
+}
+.btn-primary:hover {
+    background: #3f3ceb;
+    border-color: #3f3ceb;
+}
+@media (max-width: 900px) {
+    .grid-3-columns {
+        grid-template-columns: 1fr;
+    }
+    .grid-2-columns {
+        grid-template-columns: 1fr;
+}
+li {
+    font-size: 11px;
+    padding: 4px;
+    display: block;
+}
+p {
+    font-size: 14px;
+}
+.btn-primary {
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+.btn-primary:hover {
+    display: none;
+}
+section {
+    padding: 40px;
+}
+}
