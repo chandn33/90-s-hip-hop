@@ -13,7 +13,6 @@ header {
     background-size: cover;
     padding: 140px;
     margin: auto 0;
-    text-align: center;
 }
 .btn-dark {
     color: white;
@@ -35,13 +34,11 @@ header h2 {
     color: #ffff;
     text-transform: uppercase;
     letter-spacing: 6px;
-    text-align: center;
 }
 header h1 {
     color: #ffff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 6px;
-    text-align: center;
 }
 h3 {
     letter-spacing: 6px;
@@ -58,6 +55,18 @@ section {
     max-width: 100%;
     margin: 0 auto;
     padding: 70px;
+}
+.textEffect {
+    animation: fade-in 1s infinite;
+}
+@keyframes fade-in {
+    0%, 
+    100% {
+opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 .img-responsive {
     width: 100%;
